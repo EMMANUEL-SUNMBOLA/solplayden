@@ -1,0 +1,16 @@
+{
+  "name": "solplayden",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./public/index.html",
+  "scripts": {
+    "build": "tailwindcss build src/style.css -o public/style.css",
+    "watch": "tailwindcss build src/style.css -o public/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.4.18"
+  }
+}
