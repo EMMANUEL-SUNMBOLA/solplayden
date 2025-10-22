@@ -554,9 +554,14 @@ video {
   display: none;
 }
 
-.my-\[250px\] {
-  margin-top: 250px;
-  margin-bottom: 250px;
+.my-\[100px\] {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.my-\[50px\] {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .flex {
@@ -567,8 +572,8 @@ video {
   display: grid;
 }
 
-.h-\[50vh\] {
-  height: 50vh;
+.min-h-screen {
+  min-height: 100vh;
 }
 
 .w-\[40\%\] {
@@ -639,8 +644,54 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-\[\#0ff00\] {
+  --tw-gradient-from: #0ff00 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(255 255 255 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-\[\#ff00\] {
+  --tw-gradient-from: #ff00 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(255 255 0 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-\[\#ffff00\] {
+  --tw-gradient-from: #ffff00 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(255 255 0 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-\[\#ff0000\] {
+  --tw-gradient-from: #ff0000 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(255 0 0 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-\[\#ff00ff\] {
+  --tw-gradient-from: #ff00ff var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(255 0 255 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .to-\[\#ff00ff\] {
   --tw-gradient-to: #ff00ff var(--tw-gradient-to-position);
+}
+
+.to-\[\#00ff\] {
+  --tw-gradient-to: #00ff var(--tw-gradient-to-position);
+}
+
+.to-\[\#000ff\] {
+  --tw-gradient-to: #000ff var(--tw-gradient-to-position);
+}
+
+.to-\[\#0000ff\] {
+  --tw-gradient-to: #0000ff var(--tw-gradient-to-position);
+}
+
+.to-\[\#00ff00\] {
+  --tw-gradient-to: #00ff00 var(--tw-gradient-to-position);
 }
 
 .bg-cover {
@@ -818,7 +869,7 @@ video {
 
 .page {
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   align-items: center;
   justify-content: center;

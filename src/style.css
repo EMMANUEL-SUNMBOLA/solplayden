@@ -33,7 +33,7 @@
     }
 
     .page{
-      @apply h-[100vh] w-[100%] flex items-center justify-center;
+      @apply min-h-screen w-[100%] flex items-center justify-center;
     }
 
     .card-container{
