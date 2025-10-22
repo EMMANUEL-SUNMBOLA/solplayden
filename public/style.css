@@ -571,10 +571,6 @@ video {
   height: 50vh;
 }
 
-.h-\[100vh\] {
-  height: 100vh;
-}
-
 .w-\[40\%\] {
   width: 40%;
 }
@@ -584,10 +580,6 @@ video {
 }
 
 .w-full {
-  width: 100%;
-}
-
-.w-\[100\%\] {
   width: 100%;
 }
 
@@ -983,10 +975,6 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:flex {
-    display: flex;
-  }
-
   .md\:w-\[85\%\] {
     width: 85%;
   }
@@ -997,9 +985,5 @@ video {
 
   .md\:flex-row {
     flex-direction: row;
-  }
-
-  .md\:flex-col {
-    flex-direction: column;
   }
 }
