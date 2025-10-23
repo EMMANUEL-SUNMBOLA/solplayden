@@ -13,7 +13,6 @@
 
     .navD{
       @apply fixed top-7 left-1/2 transform -translate-x-1/2 
-      w-[80%] h-16 px-10 flex items-center justify-between 
       rounded-xl text-white text-lg backdrop-blur-lg 
       bg-white/10 border-white/20 shadow-lg;
     }
