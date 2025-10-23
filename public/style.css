@@ -575,14 +575,6 @@ video {
   height: 4rem;
 }
 
-.min-h-screen {
-  min-height: 100vh;
-}
-
-.w-\[100\%\] {
-  width: 100%;
-}
-
 .w-\[40\%\] {
   width: 40%;
 }
@@ -591,16 +583,20 @@ video {
   width: 70%;
 }
 
+.w-\[80\%\] {
+  width: 80%;
+}
+
+.w-full {
+  width: 100%;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
 
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-
-.flex-row {
-  flex-direction: row;
 }
 
 .flex-col {
@@ -619,20 +615,12 @@ video {
   justify-content: space-around;
 }
 
-.gap-\[50px\] {
-  gap: 50px;
-}
-
-.gap-\[\] {
-  gap: ;
-}
-
-.gap-\[1\] {
-  gap: 1;
-}
-
 .gap-\[1vh\] {
   gap: 1vh;
+}
+
+.gap-\[50px\] {
+  gap: 50px;
 }
 
 .gap-y-\[30px\] {
@@ -664,17 +652,20 @@ video {
   padding: 0.75rem;
 }
 
+.p-\[500px\] {
+  padding: 500px;
+}
+
 .pl-\[20px\] {
   padding-left: 20px;
 }
 
-.font-mono {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+.pt-\[150px\] {
+  padding-top: 150px;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 .text-4xl {
@@ -685,6 +676,10 @@ video {
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-\[20px\] {
+  font-size: 20px;
 }
 
 .font-bold {
@@ -968,16 +963,16 @@ video {
     display: flex;
   }
 
+  .md\:min-h-screen {
+    min-height: 100vh;
+  }
+
   .md\:w-\[60\%\] {
     width: 60%;
   }
 
   .md\:w-\[85\%\] {
     width: 85%;
-  }
-
-  .md\:w-full {
-    width: 100%;
   }
 
   .md\:grid-cols-3 {
@@ -1032,6 +1027,10 @@ video {
   .md\:px-\[20px\] {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .md\:pt-\[100px\] {
+    padding-top: 100px;
   }
 
   .md\:font-sans {
