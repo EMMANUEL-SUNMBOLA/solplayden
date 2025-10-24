@@ -22,7 +22,7 @@
     }
 
     .contract-container{
-      @apply w-[800px] bg-gray-800 rounded-lg h-[80px] flex items-center justify-between text-2xl;
+      @apply  bg-gray-800 rounded-lg  flex items-center justify-between ;
     }
 
     .about-card{
