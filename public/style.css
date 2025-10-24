@@ -575,20 +575,16 @@ video {
   height: 4rem;
 }
 
+.h-\[100vh\] {
+  height: 100vh;
+}
+
 .h-\[20px\] {
   height: 20px;
 }
 
 .h-\[45px\] {
   height: 45px;
-}
-
-.h-\[70vh\] {
-  height: 70vh;
-}
-
-.h-\[100vh\] {
-  height: 100vh;
 }
 
 .w-\[20px\] {
