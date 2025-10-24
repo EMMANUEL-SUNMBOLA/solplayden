@@ -603,6 +603,10 @@ video {
   width: 80%;
 }
 
+.w-\[85\%\] {
+  width: 85%;
+}
+
 .w-full {
   width: 100%;
 }
@@ -809,7 +813,8 @@ video {
 .about-card {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
   border-radius: 0.5rem;
   --tw-bg-opacity: 1;
   background-color: rgb(17 24 39 / var(--tw-bg-opacity, 1));
@@ -914,7 +919,10 @@ video {
 }
 
 .about-body p {
+  /* outline: 1px solid white; */
   margin-top: 1rem;
+  width: 100%;
+  text-align: right;
   font-size: 1.5rem;
   line-height: 2rem;
   --tw-text-opacity: 1;
