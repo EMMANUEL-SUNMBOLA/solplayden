@@ -579,18 +579,6 @@ video {
   height: 100vh;
 }
 
-.h-\[30px\] {
-  height: 30px;
-}
-
-.h-\[80px\] {
-  height: 80px;
-}
-
-.h-20 {
-  height: 5rem;
-}
-
 .h-\[20px\] {
   height: 20px;
 }
@@ -599,8 +587,12 @@ video {
   height: 40px;
 }
 
-.w-\[100\%\] {
-  width: 100%;
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.w-\[20px\] {
+  width: 20px;
 }
 
 .w-\[40\%\] {
@@ -615,24 +607,24 @@ video {
   width: 80%;
 }
 
+.w-\[85\%\] {
+  width: 85%;
+}
+
 .w-full {
   width: 100%;
 }
 
-.w-\[80px\] {
-  width: 80px;
+.w-\[100\%\] {
+  width: 100%;
 }
 
 .w-\[\] {
   width: ;
 }
 
-.w-\[20px\] {
-  width: 20px;
-}
-
-.w-\[85\%\] {
-  width: 85%;
+.w-\[80\] {
+  width: 80;
 }
 
 .cursor-pointer {
@@ -671,17 +663,8 @@ video {
   row-gap: 0.75rem;
 }
 
-.overflow-auto {
-  overflow: auto;
-}
-
 .overflow-x-auto {
   overflow-x: auto;
-}
-
-.bg-gray-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity, 1));
 }
 
 .bg-\[url\(\'images\/banner\.png\'\)\] {
@@ -740,21 +723,17 @@ video {
   line-height: 2.5rem;
 }
 
-.text-\[10px\] {
-  font-size: 10px;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+.text-\[20px\] {
+  font-size: 20px;
 }
 
 .text-\[30px\] {
   font-size: 30px;
 }
 
-.text-\[20px\] {
-  font-size: 20px;
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-bold {
@@ -869,8 +848,6 @@ video {
 
 .page {
   display: flex;
-  min-height: 100vh;
-  width: 100%;
   align-items: center;
   justify-content: center;
 }
@@ -1053,12 +1030,26 @@ video {
     width: 800px;
   }
 
+  .md\:w-\[80px\] {
+    width: 80px;
+  }
+
   .md\:w-\[85\%\] {
     width: 85%;
   }
 
-  .md\:w-\[80px\] {
-    width: 80px;
+  .md\:w-\[100\%\] {
+    width: 100%;
+  }
+
+  .md\:w-\[40\%\] {
+    width: 40%;
+  }
+
+  @media (min-width: 768px) {
+    .md\:md\:w-\[40\%\] {
+      width: 40%;
+    }
   }
 
   .md\:grid-cols-3 {
@@ -1084,25 +1075,6 @@ video {
   .md\:gap-x-8 {
     -moz-column-gap: 2rem;
          column-gap: 2rem;
-  }
-
-  .md\:bg-gradient-to-r {
-    background-image: linear-gradient(to right, var(--tw-gradient-stops));
-  }
-
-  .md\:from-\[\#ff00ff\] {
-    --tw-gradient-from: #ff00ff var(--tw-gradient-from-position);
-    --tw-gradient-to: rgb(255 0 255 / 0) var(--tw-gradient-to-position);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-  }
-
-  .md\:via-cyan-600 {
-    --tw-gradient-to: rgb(8 145 178 / 0)  var(--tw-gradient-to-position);
-    --tw-gradient-stops: var(--tw-gradient-from), #0891b2 var(--tw-gradient-via-position), var(--tw-gradient-to);
-  }
-
-  .md\:to-\[\#00ff00\] {
-    --tw-gradient-to: #00ff00 var(--tw-gradient-to-position);
   }
 
   .md\:px-10 {
