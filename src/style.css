@@ -80,10 +80,10 @@
 
     .copycat{
       @apply 
-      h-[80px] w-[80px] float-right
+      float-right
       flex items-center justify-center rounded-lg 
       backdrop-blur-lg border-white/20 shadow-lg bg-white/10 
-      hover:backdrop-blur-sm transition duration-200 hover:border-white ease-in-out hover:text-[#00ff00];
+      hover:backdrop-blur-sm transition duration-200 hover:border-white ease-in-out hover:text-[#00ff00] focus:text-[#00ff00];
     }
 
     .about-body p {

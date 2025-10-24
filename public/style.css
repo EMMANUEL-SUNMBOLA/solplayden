@@ -579,24 +579,24 @@ video {
   height: 100vh;
 }
 
+.h-\[30px\] {
+  height: 30px;
+}
+
 .h-\[80px\] {
   height: 80px;
 }
 
-.h-\[\] {
-  height: ;
+.h-20 {
+  height: 5rem;
 }
 
-.h-\[1\] {
-  height: 1;
+.h-\[20px\] {
+  height: 20px;
 }
 
-.h-\[1vh\] {
-  height: 1vh;
-}
-
-.h-\[30px\] {
-  height: 30px;
+.w-\[100\%\] {
+  width: 100%;
 }
 
 .w-\[40\%\] {
@@ -615,20 +615,16 @@ video {
   width: 100%;
 }
 
-.w-\[800px\] {
-  width: 800px;
+.w-\[80px\] {
+  width: 80px;
 }
 
 .w-\[\] {
   width: ;
 }
 
-.w-\[60\%\] {
-  width: 60%;
-}
-
-.w-\[100\%\] {
-  width: 100%;
+.w-\[20px\] {
+  width: 20px;
 }
 
 .cursor-pointer {
@@ -717,11 +713,6 @@ video {
   font-size: 10px;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -760,10 +751,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-\[\] {
-  color: ;
 }
 
 .transition {
@@ -905,8 +892,6 @@ video {
 .copycat {
   float: right;
   display: flex;
-  height: 80px;
-  width: 80px;
   align-items: center;
   justify-content: center;
   border-radius: 0.5rem;
@@ -933,6 +918,11 @@ video {
   --tw-backdrop-blur: blur(4px);
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
   backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
+.copycat:focus {
+  --tw-text-opacity: 1;
+  color: rgb(0 255 0 / var(--tw-text-opacity, 1));
 }
 
 .about-body p {
@@ -1020,12 +1010,16 @@ video {
     width: 80%;
   }
 
+  .md\:w-\[800px\] {
+    width: 800px;
+  }
+
   .md\:w-\[85\%\] {
     width: 85%;
   }
 
-  .md\:w-\[800px\] {
-    width: 800px;
+  .md\:w-\[80px\] {
+    width: 80px;
   }
 
   .md\:grid-cols-3 {
@@ -1090,23 +1084,23 @@ video {
     font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
-  .md\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
-  .md\:text-\[70px\] {
-    font-size: 70px;
-  }
-
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
   }
 
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
   .md\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .md\:text-\[70px\] {
+    font-size: 70px;
   }
 
   .md\:font-thin {
