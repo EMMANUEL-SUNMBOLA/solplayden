@@ -6,12 +6,6 @@ const copycat = () => {
   if (navigator.clipboard && window.isSecureContext) {
     // ✅ Modern browsers (works on HTTPS + mobile)
     navigator.clipboard.writeText(content)
-      .then(() => {
-            alert("copied");
-      })
-      .catch(err => {
-        console.error("Clipboard copy failed:", err);
-      });
   } else {
     // ⚙️ Fallback for older browsers
     const textArea = document.createElement("textarea");
@@ -24,7 +18,6 @@ const copycat = () => {
 
     try {
       document.execCommand("copy");
-      alert("copied");
       setTimeout(() => copyButton.innerText = "Copy", 1500);
     } catch (err) {
       console.error("Fallback copy failed:", err);
