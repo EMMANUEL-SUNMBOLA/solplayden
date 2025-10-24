@@ -587,6 +587,10 @@ video {
   height: 45px;
 }
 
+.w-\[100\%\] {
+  width: 100%;
+}
+
 .w-\[20px\] {
   width: 20px;
 }
@@ -805,12 +809,12 @@ video {
 .about-card {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   border-radius: 0.5rem;
   --tw-bg-opacity: 1;
   background-color: rgb(17 24 39 / var(--tw-bg-opacity, 1));
   padding: 0.75rem;
-  border: 5px solid #ffffff;
+  /* border: 5px solid #ffffff; */
   /* background-color: #ff00ff; */
 }
 
@@ -918,11 +922,11 @@ video {
 }
 
 .about-head{
-  border: 3px solid #ff66cc;
-  outline: 1px solid white;
+  /* border: 3px solid #ff66cc; */
+  /* outline: 1px solid white; */
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   border-radius: 0.5rem;
 }
 

@@ -26,8 +26,8 @@
     }
 
     .about-card{
-      @apply flex items-center p-3 flex-col rounded-lg bg-gray-900;
-      border: 5px solid #ffffff;
+      @apply flex items-start p-3 flex-col rounded-lg bg-gray-900;
+      /* border: 5px solid #ffffff; */
       /* background-color: #ff00ff; */
     }
 
@@ -92,9 +92,9 @@
 
     .about-head{
       
-      border: 3px solid #ff66cc;
-      outline: 1px solid white;
-      @apply flex items-center justify-center rounded-lg;
+      /* border: 3px solid #ff66cc; */
+      /* outline: 1px solid white; */
+      @apply flex items-center justify-end rounded-lg;
     }
 
     .about-head h1{
