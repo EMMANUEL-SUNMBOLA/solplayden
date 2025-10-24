@@ -631,6 +631,10 @@ video {
   width: 20px;
 }
 
+.w-\[85\%\] {
+  width: 85%;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -665,6 +669,14 @@ video {
 
 .gap-y-3 {
   row-gap: 0.75rem;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.overflow-x-auto {
+  overflow-x: auto;
 }
 
 .bg-gray-300 {
