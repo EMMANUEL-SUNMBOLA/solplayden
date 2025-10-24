@@ -714,6 +714,14 @@ video {
   padding-top: 150px;
 }
 
+.pt-\[\] {
+  padding-top: ;
+}
+
+.pt-\[15vh\] {
+  padding-top: 15vh;
+}
+
 .font-mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
@@ -1014,6 +1022,10 @@ video {
 
   .md\:h-\[80px\] {
     height: 80px;
+  }
+
+  .md\:h-\[100vh\] {
+    height: 100vh;
   }
 
   .md\:min-h-screen {
