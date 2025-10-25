@@ -154,4 +154,11 @@
     .neon-pink-animate {
       animation: neon-pulse 2s ease-in-out infinite;
     }
+
+    .sideNav{
+
+      width: 30px;
+      /* border: 3px solid #ff00ff; */
+
+    }
   }
