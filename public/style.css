@@ -559,6 +559,10 @@ video {
   margin-bottom: 50px;
 }
 
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .flex {
   display: flex;
 }
@@ -587,20 +591,12 @@ video {
   height: 45px;
 }
 
-.h-\[80vh\] {
-  height: 80vh;
-}
-
 .w-\[100\%\] {
   width: 100%;
 }
 
 .w-\[20px\] {
   width: 20px;
-}
-
-.w-\[70\%\] {
-  width: 70%;
 }
 
 .w-\[80\%\] {
@@ -635,10 +631,6 @@ video {
   justify-content: center;
 }
 
-.gap-\[1vh\] {
-  gap: 1vh;
-}
-
 .gap-\[50px\] {
   gap: 50px;
 }
@@ -647,16 +639,16 @@ video {
   row-gap: 0.75rem;
 }
 
-.gap-y-\[1vh\] {
-  row-gap: 1vh;
-}
-
 .gap-y-\[5vh\] {
   row-gap: 5vh;
 }
 
 .overflow-x-auto {
   overflow-x: auto;
+}
+
+.overflow-y-auto {
+  overflow-y: auto;
 }
 
 .bg-\[url\(\'images\/banner\.png\'\)\] {
@@ -702,8 +694,18 @@ video {
   padding: 5px;
 }
 
+.py-\[5vh\] {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
 .font-mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-4xl {
@@ -722,6 +724,16 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -864,8 +876,6 @@ video {
 }
 
 .card{
-  width: 80%;
-  height: 300px;
   background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
@@ -873,8 +883,6 @@ video {
   border: 1px solid rgba(255, 255, 255, 0.3);
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   border-radius: 0.375rem;
 }
 
@@ -960,13 +968,6 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.token-heading{
-  width: 80%;
-  margin-top: 1.25rem;
-  font-size: 3rem;
-  line-height: 1;
-}
-
 .neon-pink {
   color: #fff;
   text-shadow:
@@ -1004,12 +1005,16 @@ video {
     display: flex;
   }
 
-  .md\:h-\[100vh\] {
-    height: 100vh;
+  .md\:h-\[300px\] {
+    height: 300px;
   }
 
   .md\:h-\[80px\] {
     height: 80px;
+  }
+
+  .md\:min-h-\[100vh\] {
+    min-height: 100vh;
   }
 
   .md\:min-h-screen {
@@ -1081,6 +1086,11 @@ video {
   .md\:px-\[20px\] {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .md\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .md\:pl-\[20px\] {
