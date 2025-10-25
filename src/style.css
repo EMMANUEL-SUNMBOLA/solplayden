@@ -88,7 +88,7 @@
 
     .about-body p {
       /* outline: 1px solid white; */
-      @apply text-white text-2xl mt-4 text-right w-[100%];
+      @apply text-white text-2xl mt-4 text-left w-[100%];
     }
 
     .about-head{
